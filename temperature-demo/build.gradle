@@ -26,6 +26,7 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+    compile ('io.reactivex:rxjava:1.3.8')
 }
 
 test {
